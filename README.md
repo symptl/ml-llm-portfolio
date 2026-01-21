@@ -1,6 +1,6 @@
 # ML & LLM Portfolio
 
-A collection of machine learning and LLM projects completed during my Master of Information and Data Science (MIDS) program at UC Berkeley.
+A collection of machine learning and LLM projects that began during my Master of Information and Data Science (MIDS) program at UC Berkeley.
 
 ---
 
