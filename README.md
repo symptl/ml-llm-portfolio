@@ -13,6 +13,14 @@ A RAG-based journaling application that retrieves relevant Cognitive Behavioral 
 
 [View Repository →](https://github.com/symptl/ai-powered-cbt-rag-journal)
 
+
+### Yelp Two-Tower Recommender
+A neural recommender system predicting user ratings using a two-tower architecture with pooled SBERT embeddings from review corpora. Designed for two-stage production deployment: dot product similarity enables fast vector search for candidate retrieval, followed by FFNN reranking for precision. Learnable entity embeddings address cold-start for new users/businesses. Achieves ~80% RMSE reduction vs. matrix factorization.
+
+**Tech:** Python, PyTorch, Sentence Transformers (SBERT), Gensim (Word2Vec), Google Colab (T4/A100)
+
+[View Repository →](https://github.com/symptl/yelp-two-tower-recommender)
+
 ---
 
 ### More to come, stay tuned!
