@@ -7,7 +7,7 @@ A collection of machine learning and LLM projects completed during my Master of 
 ## Projects
 
 ### AI-Powered CBT Journal (Capstone)
-A RAG-based journaling application that retrieves relevant Cognitive Behavioral Therapy context and generates quick personalized reflections using a locally hosted LLM. Features vLLM optimization with prefix caching, AWS SageMaker deployment, and a Bedrock knowledge base.
+A RAG-based journaling application that retrieves relevant Cognitive Behavioral Therapy context and generates fast and personalized reflections using a locally hosted LLM. Features vLLM optimization with prefix caching, AWS SageMaker deployment, and a Bedrock knowledge base.
 
 **Tech:** Python, LangChain, FastAPI, AWS (SageMaker, Bedrock, Elastic Beanstalk), vLLM, Quantization, KV Caching
 
