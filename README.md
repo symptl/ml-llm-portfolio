@@ -21,6 +21,14 @@ A neural recommender system predicting user ratings using a two-tower architectu
 
 [View Repository →](https://github.com/symptl/yelp-two-tower-recommender)
 
+
+### Flight Delay Prediction at Scale
+A PySpark ML pipeline in Databricks predicting flight delays across 30M DOT/NOAA records (2015-2019). Engineered novel features including preceding flight delays (via tail number tracking) and airport graph centrality metrics, which emerged as top predictors across all models. Time-series cross-validation with 2019 holdout preserves temporal ordering. Classification (whether a delay is > 15 minutes) achieves AUC 0.82 / F1 0.76; regression RMSE 43.81 minutes.
+
+**Tech:** PySpark, Databricks, Spark ML, XGBoost, TensorFlow/Keras, NetworkX
+
+[View Repository →](https://github.com/symptl/flight-delay-prediction-big-data)
+
 ---
 
 ### More to come, stay tuned!
