@@ -7,7 +7,7 @@ A collection of machine learning and LLM projects completed during my Master of 
 ## Projects
 
 ### AI-Powered CBT Journal (Capstone)
-A RAG-based journaling application that retrieves relevant Cognitive Behavioral Therapy context and generates personalized reflections using a locally hosted LLM. Features vLLM optimization with prefix caching, AWS SageMaker deployment, and a Bedrock knowledge base.
+A RAG-based journaling application that retrieves relevant Cognitive Behavioral Therapy context and generates quick personalized reflections using a locally hosted LLM. Features vLLM optimization with prefix caching, AWS SageMaker deployment, and a Bedrock knowledge base.
 
 **Tech:** Python, LangChain, FastAPI, AWS (SageMaker, Bedrock, Elastic Beanstalk), vLLM, Quantization, KV Caching
 
@@ -15,9 +15,9 @@ A RAG-based journaling application that retrieves relevant Cognitive Behavioral 
 
 
 ### Yelp Two-Tower Recommender
-A neural recommender system predicting user ratings using a two-tower architecture with pooled SBERT embeddings from review corpora. Designed for two-stage production deployment: dot product similarity enables fast vector search for candidate retrieval, followed by FFNN reranking for precision. Learnable entity embeddings address cold-start for new users/businesses. Achieves ~80% RMSE reduction vs. matrix factorization.
+A neural recommender system predicting user ratings using a two-tower architecture with pooled SBERT embeddings from review corpora as a content-based filtering approach. Designed for two-stage production deployment: dot product similarity enables fast vector search for candidate retrieval, followed by FFNN reranking for precision. Learnable entity embeddings address cold-start for new users/businesses (when collaborative filtering can fail). Achieves ~80% RMSE reduction vs. matrix factorization.
 
-**Tech:** Python, PyTorch, Sentence Transformers (SBERT), Gensim (Word2Vec), Google Colab (T4/A100)
+**Tech:** Python, Tensorflow, Keras, Sentence Transformers (SBERT), Embeddings
 
 [View Repository →](https://github.com/symptl/yelp-two-tower-recommender)
 
